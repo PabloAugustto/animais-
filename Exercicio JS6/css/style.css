@@ -1,0 +1,43 @@
+body {
+  position: relative;
+  width: 400px;
+  margin: 0 auto;
+}
+div {
+  display: block;
+  position: absolute;
+  width: 100%;
+  border: 10px solid #aaa;
+  border-radius: 30px;
+  padding: 30px;
+  transition: all 0.3s ease-in-out;
+}
+span {
+  display: block;
+  text-align: center;
+  font-size: 70px;
+  color: #222;
+  font-family: sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+button {
+  width: 49%;
+  height: 60px;
+  border: none;
+  background-color: #ccc;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+button:hover {
+  background: #aaa;
+}
+button:focus {
+  outline: none;
+}
+button:disabled {
+  opacity: 0.5;
+}

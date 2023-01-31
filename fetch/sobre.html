@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OIIII</title>
+  <style>
+    label, input {
+      display: block;
+    }
+    .btc {
+      font-size: 24px;
+      animation: animaBtc .5s infinite
+    }
+  </style>
+</head>
+<body>
+  <ul>
+    <li><a href="busca-cep.html">Home</a></li>
+    <li><a href="sobre.html">Sobre</a></li>
+  </ul>
+  <div class="content">
+    <h1>Conteúdo da página Sobre</h1>
+  </div>
+  <form id="busca-cep" action="">
+    <label for="cep">CEP</label>
+    <input type="tel" name="cep" id="cep">
+    <input type="button" value="Buscar CEP" id="btn-Cep">
+  </form>
+  <div class="resultado-cep"></div>
+
+  <div>
+    <h2>Preço do Bitcoin</h2>
+    <span class="btc"></span>
+  </div>
+
+  <div>
+    <p class="piada"></p>
+    <button class="proxima">Proxima Piada</button>
+  </div>
+  <script src="js/busca-cep.js"></script>
+</body>
+</html>
